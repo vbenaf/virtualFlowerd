@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+*{
+    margin:0;
+    font-family:'Didact Gothic', sans-serif;
+}
+body {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("IMAGES/57e7d2434b54a914ea89857dc22e3-h_k2nc4hz6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: white;
+    padding:20px;
+}
+header>ul{
+    float:right;
+    margin-top:10px;
+}
+header>ul>li{
+    display:inline;
+    margin:50px;
+    list-style-type: none;
+}
+header>ul>li>a{
+    color:black;
+    text-decoration: none;
+}
+.notSelected{
+    color:grey;
+}
+p{
+    color:white;
+    padding:150px;
+    font-size: 50px;
+}
+.intro{
+    color:white;
+    margin-top:-250px;
+    font-size: 33px;
+    width:500px;
+    letter-spacing: 6px;
+}
+button{
+    position: absolute;
+    top:540px;
+    left:150px;
+    padding:20px;
+    width:200px;
+    border:none;
+    background-color: rgb(125, 173, 255);
+    color:white;
+    font-size: 22px;
+    border-radius: 20px;
+    transition:background 1s;
+}
+button:hover{
+    cursor: pointer;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+}
+section{
+    background-color: white;
+    position: relative;
+}
+section>h1{
+    text-align: center;
+    padding:150px;
+}
+section>.info{
+    width:100%;
+    height:500px;
+    margin: 0 auto;
+    margin-top:-90px;
+}
+section>.info>.info1{
+    width:400px;
+    height:100%;
+    padding-left:250px;
+    text-align: center;
+}
+section>.info>.info1>img{
+    width:120px;
+}
+section>.info>.info2>img{
+    width:120px;
+}
+section>.info>.info3>img{
+    width:120px;
+}
+.info1>h3{
+    color:black;
+    margin-bottom:30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.info2>h3{
+    color:black;
+    margin-bottom:30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.first{
+    color:black;
+    font-size: 15px;
+    width:200px;
+    position:relative;
+    top:-170px;
+    left:-50px;
+    line-height: 40px;
+}
+.info>.info1>.buttonFirst{
+    position:relative;
+    top:-290px;
+    padding:10px;
+    width:200px;
+    left:0px;
+    border:none;
+    background-color: rgb(125, 173, 255);
+    color:white;
+    font-size: 19px;
+    border-radius: 20px;
+}
+.info>.info2>.buttonSecond{
+    position:relative;
+    top:-290px;
+    padding:10px;
+    width:200px;
+    left:0px;
+    border:none;
+    background-color: rgb(125, 173, 255);
+    color:white;
+    font-size: 19px;
+    border-radius: 20px;
+}
+.info>.info1>.buttonFirst:hover{
+    cursor: pointer;
+    background-color:rgb(117, 235, 117);
+    color:white;
+    border:1px solid white;
+}
+section>.info>.info2{
+    position: absolute;
+    top:265px;
+    width:400px;
+    height:100%;
+    padding-left:550px;
+    text-align: center;
+}
+section>h1{
+    font-size: 40px;
+}
+section>.info>.info3{
+    width:400px;
+    height:100%;
+    padding-left:850px;
+    text-align: center;
+}
+section>.info>.info3{
+    position: absolute;
+    top:265px;
+    width:400px;
+    height:100%;
+    padding-left:850px;
+    text-align: center;
+}
+section>.info>.info3>p{
+    margin-top:30px;
+}
+@media only screen and (max-width: 640px) {
+    header {
+        width:100vh;
+      background-color: lightblue;
+    }
+    p{
+        width:100vh;
+    }
+    section{
+        width:100vh;
+    }
+    header>ul{
+        font-size: 10px;
+        padding-top:40px;
+        margin-bottom:-30px;
+    }
+  }
